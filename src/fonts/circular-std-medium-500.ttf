@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'circular-std-medium-500';
+    src: local('circular-std-medium-500')
+     url('./fonts/circular-std-medium-500.ttf') format('ttf')
+}

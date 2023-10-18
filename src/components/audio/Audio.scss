@@ -1,0 +1,56 @@
+.Audio{
+    height: 120px;
+    background-color: #181818fb;
+    .play-pause{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        .play{
+            width: 48px;
+            height: 48px;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            svg{
+                color: #000000e7;
+                font-size: 20px;
+               
+            }
+        }
+        svg{
+            color: #fff;
+            font-size: 30px;
+        }
+    }
+    
+}
+
+audio::-webkit-media-controls-border,
+audio::-webkit-media-controls-panel {
+  background-color: #181818fb;
+//   color: #fff;
+}
+
+.audio-player {
+    --player-button-width: 3em;
+  
+  }
+  .controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .player-button {
+    background-color: red;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0;
+  }

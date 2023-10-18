@@ -1,0 +1,142 @@
+.before-after {
+    display: flex;
+    align-items: center;
+    height: 80px;
+
+}
+
+.Playlist {
+    background: linear-gradient(180deg, #DEF628 2.1%, #121212 8.28%);
+    padding: 0 40px;
+    color: #B3B3B3;
+}
+
+.playlist-cards {
+    display: flex;
+    align-items: center;
+    width: 800px;
+
+    svg {
+        display: flex;
+        text-align: right;
+        width: 28px;
+        height: 28px;
+        cursor: pointer;
+    }
+
+    .track-img {
+        display: flex;
+        align-items: center;
+
+        span {
+            font-size: 20px;
+            padding: 12px 23px 12px 19px;
+        }
+
+        img {
+            width: 52px;
+            height: 52px;
+            margin-top: 20px;
+        }
+    }
+
+    b {
+        display: inline;
+    }
+
+
+}
+
+.music-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .music-name {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        justify-content: flex-end;
+
+        p {
+            font-size: 20px;
+            width: 210px;
+        }
+
+        b {
+            font-size: 18px;
+        }
+    }
+
+    span {
+        margin: 0 100px;
+        width: 200px;
+
+    }
+}
+
+.playlist-banner {
+
+    display: flex;
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .playlist-banner-title {
+        padding: 0 32px;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        text-align: flex-start;
+
+        b {
+            color: #fff;
+            font-size: 20px;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 100px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 22px;
+        }
+    }
+}
+
+.play-music {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+
+    .play-pause {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #65D36E;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        // &:active{
+
+        // }
+        svg {
+            font-size: 55px;
+
+        }
+    }
+
+    .icon {
+        color: #fff;
+        font-size: 30px;
+    }
+
+}

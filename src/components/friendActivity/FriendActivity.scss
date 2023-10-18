@@ -1,0 +1,58 @@
+.friendSection-wrapper {
+    padding: 20px;
+    width: 346px;
+    background-color: #000;
+
+    svg {
+        color: #B3B3B3;
+        width: 32px;
+        height: 32px;
+    }
+
+    p {
+        color: #CCC;
+        font-family: Circular Std;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 24px;
+    }
+}
+
+.friend-act-title {
+    display: flex;
+    align-items: center;
+    margin: 29px 0 39px;
+    gap: 10px;
+
+    p {
+        color: #CCCC;
+        font-size: 20px;
+        flex: 1;
+    }
+}
+
+.friend {
+    display: flex;
+    background-color: black;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+p {
+    max-width: 306px;
+}
+
+button {
+    border-radius: 40px;
+    background: #FFF;
+    width: 233px;
+    height: 62px;
+    margin-top: 20px;
+    color: #171717;
+    letter-spacing: 2.52px;
+    text-align: center;
+    font-family: 'Circular Std';
+    font-size: 18px;
+    font-weight: 700;
+}
